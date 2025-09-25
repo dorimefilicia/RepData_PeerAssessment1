@@ -171,7 +171,7 @@ data_imputed$weekday <- factor(data_imputed$weekday, levels = c("weekday", "week
 
 Plotting a time series plot  of the 5-minute interval  and the average number of steps taken, averaged across all weekday days or weekend days.
 
-```{r panel plot, fig.width=8, fig.height=5}
+```{r panel-plot, fig.width=8, fig.height=5}
 data_imputed$weekday <- factor(data_imputed$weekday, levels = c("weekday", "weekend"))
 
 avg_steps <- aggregate(steps ~ interval + weekday, data_imputed, mean)

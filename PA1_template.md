@@ -265,4 +265,4 @@ ggplot(avg_steps, aes(x = interval, y = steps)) +
 )
 ```
 
-![](PA1_template_files/figure-html/panel plot-1.png)<!-- -->
+![](PA1_template_files/figure-html/panel-plot-1.png)<!-- -->
